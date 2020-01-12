@@ -97,10 +97,10 @@ module.exports = {
     htmlPage('options', 'options', ['options']),
     htmlPage('background', 'background', ['background']),
     new CopyWebpackPlugin([{ from: path.join(__dirname, '..', 'static') }]),
-    // new ChromeReloadPlugin({
-    //   port: 9090,
-    //   manifest: path.join(__dirname, '..', 'src', 'manifest.js')
-    // }),
+    new ChromeReloadPlugin({
+      port: 9090,
+      manifest: path.join(__dirname, '..', 'src', 'manifest.js')
+    }),
   ],
   performance: { hints: false },
 }
