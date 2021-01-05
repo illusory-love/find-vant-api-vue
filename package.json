@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "lodash": "^4.17.15",
